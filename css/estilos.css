@@ -83,13 +83,22 @@ body{
 
 .titulo1{
     font-size: 11px;
-    color: darkgrey;
+    color: gold;
     background-image: url(/img/portada2.webp);
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     padding: 20px;
+    animation: efecto alternate infinite 2s 5s;
+}
+.contenedorSubtitulo1 p{
+    border: 3px solid darkslategrey;
+    padding: 10px;
+}
+.contenedorSubtitulo1 p:hover{
+    color:aqua;
+    transition: 2s;
 }
 .main{
     text-align: justify;
@@ -389,7 +398,12 @@ body{
         border-radius: 30%;
         box-shadow: 0 0 10px darkslategrey;
     }
-
+    @keyframes efecto {
+        0%{opacity:0;
+        } 
+        100%{opacity:1;
+        } 
+    }
 
 
     /*medias*/
@@ -407,6 +421,7 @@ body{
         .titulo1{
             font-size: 15px;
             text-align: center;
+            animation: efecto alternate infinite 2s 5s;
         }
         .music{
             font-size: 25px;
@@ -427,6 +442,12 @@ body{
         }
         .contactoItem1 p{
             font-size: 20px;
+        }
+        @keyframes efecto {
+            0%{opacity:0;
+            } 
+            100%{opacity:1;
+            } 
         }
     }
 
@@ -449,6 +470,7 @@ body{
             height: 100vh;
             width: 100%;
             padding: 20px;
+            animation: efecto alternate infinite 2s 5s;
         }
         .music{
             font-size: 20px;
@@ -475,6 +497,12 @@ body{
         
         .integrantes{
             font-size: 20px;
+        }
+        @keyframes efecto {
+            0%{opacity:0;
+            } 
+            100%{opacity:1;
+            } 
         }
     }
 
@@ -508,12 +536,18 @@ body{
             height: 100vh;
             width: 100%;
             padding: 20px;
+            animation: efecto alternate infinite 2s 5s;
+            
         }
         .navbar_items li a {
             text-decoration: none;
             text-shadow: 2px 2px 10px darkslategray;
             font-size: 25px;
             color: gold;
+        }
+        .contenedorSubtitulo1 p{
+            border: 3px solid darkslategrey;
+            padding: 10px;
         }
         .music{
             font-size: 25px;
@@ -571,5 +605,11 @@ body{
         }
         .contactoItem1 p{
             font-size: 25px;
+        }
+        @keyframes efecto {
+            0%{opacity:0;
+            } 
+            100%{opacity:1;
+            } 
         }
     }
