@@ -84,7 +84,7 @@ body{
 .titulo1{
     font-size: 11px;
     color: gold;
-    background-image: url(/img/portada2.webp);
+    background-image: url(./img/portada2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -191,7 +191,7 @@ body{
 }
 
 .item1{
-    background-image: url(/img/imagen8.jpg);
+    background-image: url(./img/imagen8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -199,7 +199,7 @@ body{
 
 
 .item2{
-    background-image: url(/img/IMAGEN6.webp);
+    background-image: url(./img/IMAGEN6.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -207,7 +207,7 @@ body{
 
 
 .item3{
-    background-image: url(/img/floor.webp);
+    background-image: url(./img/floor.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -216,7 +216,7 @@ body{
 
 
 .item4{
-    background-image: url(/img/imagen7jpg.jpg);
+    background-image: url(./img/imagen7jpg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +224,7 @@ body{
 
 
 .item5{
-    background-image: url(/img/imagen9.jpg);
+    background-image: url(./img/imagen9.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -232,21 +232,21 @@ body{
 
 
 .item6{
-    background-image: url(/img/imagen18.webp);
+    background-image: url(./img/imagen18.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
 }
 
 .item7{
-    background-image: url(/img/imagen11.webp);
+    background-image: url(./img/imagen11.webp);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
 }
 
 .item8{
-    background-image: url(/img/imagen15.webp);
+    background-image: url(./img/imagen15.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -464,7 +464,7 @@ body{
             font-size: 20px;
             text-align: center;
             color: gold;
-            background-image: url(/img/portada2.webp);
+            background-image: url(./img/portada2.webp);
             background-size:cover;
             background-repeat: no-repeat;
             height: 100vh;
@@ -530,7 +530,7 @@ body{
             font-size: 30px;
             text-align: center;
             color: gold;
-            background-image: url(/img/portada2.webp);
+            background-image: url(./img/portada2.webp);
             background-size:cover;
             background-repeat: no-repeat;
             height: 100vh;
