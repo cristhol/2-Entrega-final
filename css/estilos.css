@@ -84,7 +84,7 @@ body{
 .titulo1{
     font-size: 11px;
     color: gold;
-    background-image: url(./img/portada2.jpg);
+    background-image: url(/img/portadahome.png);
     background-size:cover;
     background-repeat: no-repeat;
     height: 100vh;
