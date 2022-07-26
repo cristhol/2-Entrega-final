@@ -26,7 +26,7 @@ html {
     height: 100%;
 }
 
-body {
+.contenedor {
     background: #4ECDC4;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
